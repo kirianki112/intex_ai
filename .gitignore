@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+# Django / DRF
+backend/db.sqlite3
+backend/document_exports/
+backend/knowledge_docs/
+
+# Environment files
+backend/.env
+backend/.env.local
+backend/.env.*.local
+
+
+# DRF browsable API cache
+*.cache
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.Python
+
+# PyCharm / VSCode / other IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+frontend/node_modules/
+frontend/.next/
+frontend/out/

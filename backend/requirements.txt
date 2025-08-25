@@ -1,0 +1,44 @@
+# requirements.txt
+
+# Core Django and API
+django
+djangorestframework
+django-cors-headers
+python-decouple  # For reading .env file
+
+# Database
+psycopg2-binary
+pgvector
+dj-database-url
+
+# Authentication
+djangorestframework-simplejwt # A better alternative to TokenAuthentication for future
+# Or stick with built-in Token for prototype simplicity
+
+# Document Parsing
+python-docx
+python-pptx
+PyPDF2
+PyMuPDF  # For PDF parsing
+docx2txt
+pdfplumber
+openpyxl
+
+# AI and Embeddings
+openai # Optional for open-source models
+tiktoken # For token counting
+
+# Async Tasks
+celery
+redis
+
+pandas
+
+weasyprint
+
+markdown-it-py 
+mdit-py-plugins
+tavily-python
+html_to_docx
+reportlab
+xhtml2pdf
